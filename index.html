@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+   <title>21-PS24336-Võ Minh Tâm</title>
+  <link rel="stylesheet" href="stty.css">
+</head>
+<body>
+    <form>
+        <div class="form-group">
+            <label >Họ và tên</label> <br>
+            <input class="form-control" type="text" tabindex="1">
+        </div>
+        <div class="form-group">
+            <fieldset>
+                <legend>Giới tính</legend>
+                <label><input type="radio"> Nam</label>  
+                <label><input type="radio"> Nữ </label> 
+            </fieldset>         
+        </div>
+        <div class="form-group">
+            <label>Ngày sinh</label> <br>
+            <input type="date">
+        </div>
+        <div class="form-group"> 
+            <label> Điểm</label> <br>
+            <input type="number" min="0" max="10" step="0.25">
+        </div>
+        <div class="form-group">
+            <label> Nghề nghiệp</label>
+            
+            <select>
+                <option value="CEO"></option>
+                <option value="Maketing"></option>
+                <option value="Lập trình viên"></option>
+                <option value="Grap"></option>
+                <option value="Bán Hang"></option>
+            </select>
+        </div>
+        <div class="form-group" >
+            <fieldset>
+                <legend>Sở thích</legend>
+                <label><input type="checkbox"> Thể thao</label>
+                <label><input type="checkbox"> Du lịch</label>
+                <label><input type="checkbox"> Ẩm thực</label>
+                <label><input type="checkbox"> Âm nhạc</label>
+            </fieldset>
+        </div>
+        <div class="form-group">
+            <label for="">Ghi chú</label> <br>
+            <textarea  cols="30" rows="5" ></textarea>
+        </div>
+        <hr>
+        <div class="form-group">
+           <button class="form-button">Đăng ký</button>
+           <button class="form-button" >Nhập lại</button>
+        </div>
+    </form>
+</body>
+</html>
